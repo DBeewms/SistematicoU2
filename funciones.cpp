@@ -4,7 +4,6 @@ using namespace std;
 
 
 void numerosMayor(){
-    int mayor;
     int cantidad;
     int num;
     int mayor = 0;
