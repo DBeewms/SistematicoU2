@@ -10,6 +10,7 @@ int main(int argc, char const *argv[])
     system("cls");
     
     cout << "Selecciona una opcion: " << endl;
+    cout << "Opcion 1, adivinar edad" << endl;
     cout << "Opcion 2, tabla de multiplicar" << endl;
     cout << "Opcion 3, numero mayor entre varios numeros" << endl;
     cout << "Opcion 4, salir" << endl;
@@ -17,6 +18,9 @@ int main(int argc, char const *argv[])
 
     switch (opcion)
     {
+    case 1:
+        adivinarEdad();
+        break;
     case 2:
         tablaMultiplicar();
         system("pause");

@@ -1,7 +1,17 @@
 #include <iostream>
 using namespace std;
 
-
+void adivinarEdad(){
+    int talla;
+    int final;
+    int edad;
+    cout << "Ingresa la talla" << endl;
+    cout << "Ingresa tu edad" << endl;
+    cin >> talla;
+    final = talla * (5+20) * 20 + 1015 - edad;
+    cout << edad << endl;
+    return;
+}
 
 void numerosMayor(){
     int cantidad;
